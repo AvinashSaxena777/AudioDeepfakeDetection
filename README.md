@@ -13,7 +13,7 @@ Trained 3 different models: Wav2Vec2, WavLM and Whisper for 20 epochs on T4 GPU.
 
 # Results
 ## Loss Curves
-![Training Loss Curve](./images/train_loss_metrics.png| width=100) ![Test Loss Curve](./images/val_loss_metrics.png| width=100)
+<img src="./images/train_loss_metrics.png" alt="Training Loss Curve" width="150" height="150">
 
 ## Accuracy Curves
 ![Training Accuracy Curve](./images/train_accuracy_metrics.png| width=100) ![Test Accuracy Curve](./images/val_accuracy_metrics.png| width=100)
