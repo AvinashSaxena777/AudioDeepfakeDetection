@@ -13,11 +13,14 @@ Trained 3 different models: Wav2Vec2, WavLM and Whisper for 20 epochs on T4 GPU.
 
 # Results
 ## Loss Curves
-<img src="./images/train_loss_metrics.png" alt="Training Loss Curve" width="150" height="150">
+<p float="left">
+<img src="./images/train_loss_metrics.png" alt="Training Loss Curve" width="40%"> <img src="./images/val_loss_metrics.png" alt="Test Loss Curve" width="40%">
+</p>
 
 ## Accuracy Curves
-![Training Accuracy Curve](./images/train_accuracy_metrics.png| width=100) ![Test Accuracy Curve](./images/val_accuracy_metrics.png| width=100)
-
+<p float="left">
+<img src="./images/train_accuracy_metrics.png" alt="Training Accuracy Curve" width="40%"> <img src="./images/val_accuracy_metrics.png" alt="Test Accuracy Curve" width="40%">
+</p>
 
 # Model Weights:
 * WavLM: https://huggingface.co/Jiraheya/WavLM-AudioDeepfakeDetection
