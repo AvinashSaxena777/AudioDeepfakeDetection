@@ -23,7 +23,7 @@ def reduce_image_size(image_path, max_width, max_height):
 def display_page():
     """
     Display the Streamlit page with model training and validation results.
-    Includes images, tables, and bar charts to compare WavLM, Wav2Vec2, and Whisper models.
+    Includes Images, tables, and bar charts to compare WavLM, Wav2Vec2, and Whisper models.
     """
     # Page Title and Description
     st.markdown("<h1 style='text-align: center; color: #4F8EF7;'>Training and Validation Results</h1>", unsafe_allow_html=True)
@@ -41,22 +41,22 @@ def display_page():
     col1, col2 = st.columns(2)
 
     with col1:
-        train_loss_image = reduce_image_size("images/train_loss.jpg", max_image_width, max_image_height)
+        train_loss_image = reduce_image_size("Images/train_loss.jpg", max_image_width, max_image_height)
         st.image(train_loss_image, caption="📉 Train Loss Curve", use_column_width=True)
 
     with col2:
-        train_acc_image = reduce_image_size("images/train_acc.jpg", max_image_width, max_image_height)
+        train_acc_image = reduce_image_size("Images/train_acc.jpg", max_image_width, max_image_height)
         st.image(train_acc_image, caption="📈 Train Accuracy Curve", use_column_width=True)
 
     st.markdown("### Validation Metrics")
     col3, col4 = st.columns(2)
 
     with col3:
-        val_loss_image = reduce_image_size("images/val_loss.jpg", max_image_width, max_image_height)
+        val_loss_image = reduce_image_size("Images/val_loss.jpg", max_image_width, max_image_height)
         st.image(val_loss_image, caption="📉 Validation Loss Curve", use_column_width=True)
 
     with col4:
-        val_acc_image = reduce_image_size("images/val_acc.jpg", max_image_width, max_image_height)
+        val_acc_image = reduce_image_size("Images/val_acc.jpg", max_image_width, max_image_height)
         st.image(val_acc_image, caption="📈 Validation Accuracy Curve", use_column_width=True)
 
     # Horizontal Divider

@@ -22,12 +22,12 @@ These baseline modules play a crucial role in our project by providing pre-train
 # Results
 ## Loss Curves
 <p float="left">
-<img src="./images/train_loss_metrics.png" alt="Training Loss Curve" width="40%"> <img src="./images/val_loss_metrics.png" alt="Test Loss Curve" width="40%">
+<img src="Images/train_loss_metrics.png" alt="Training Loss Curve" width="40%"> <img src="Images/val_loss_metrics.png" alt="Test Loss Curve" width="40%">
 </p>
 
 ## Accuracy Curves
 <p float="left">
-<img src="./images/train_accuracy_metrics.png" alt="Training Accuracy Curve" width="40%"> <img src="./images/val_accuracy_metrics.png" alt="Test Accuracy Curve" width="40%">
+<img src="Images/train_accuracy_metrics.png" alt="Training Accuracy Curve" width="40%"> <img src="Images/val_accuracy_metrics.png" alt="Test Accuracy Curve" width="40%">
 </p>
 
 # References
