@@ -30,6 +30,17 @@ These baseline modules play a crucial role in our project by providing pre-train
 <img src="Images/train_accuracy_metrics.png" alt="Training Accuracy Curve" width="40%"> <img src="Images/val_accuracy_metrics.png" alt="Test Accuracy Curve" width="40%">
 </p>
 
+## How To Run
+* Install the required libraries
+pip install -r requirements.txt
+
+* Download Resampled Dataset from
+https://drive.google.com/file/d/1PXOKm_O0p2VCAdU6-XGkrBVNE1X4UNn4/view?usp=drive_link
+
+* Just Run the training script notebooks
+
+
+
 # References
 Throughout our project, we relied on several key resources:
 * https://huggingface.co/docs/transformers/en/model_doc/wavlm
