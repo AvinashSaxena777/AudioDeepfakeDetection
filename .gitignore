@@ -1,3 +1,4 @@
 *.pth
 
 /frontend/models/*/*.pth
+/frontend/onnx_models/*.onnx
