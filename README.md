@@ -1,4 +1,61 @@
-# Current Status
+# Class: CMPE258 Section 2, Deep Learning
+* This project is a part of Deep Learning course at San Jose State University, serving as a semester project aimed at applying theoritical knowledge to practical deep learning applications.
+
+
+# Deepfake Audio Detection using WavLM, Wav2Vec2 and Whisper Model
+
+## Project Team
+    1. Pratikkumar Dalsukhbhai Korat
+        SJSU ID : 017512598
+        Email ID: pratikkumardalsukhbhai.korat@sjsu.edu
+    2. Avinash Saxena
+        SJSU ID : 017507178 
+        Email ID: avinash.saxena@sjsu.edu
+    3. Gauri Naik
+        SJSU ID : 017430842
+        Email ID: gauri.naik@sjsu.edu
+
+## Project Stacks
+
+  * Pytorch: Model defintion and training
+  * wandb: Model Versioning and Observability
+  * streamlit: User Interface
+  * onnx: Export and inference optimization
+  * transformers: Huggingface library transformer models
+  * numpy, pandas, sklearn, matplotlib: Data processing and visualization.
+
+## How To Run Training Scripts
+  * Install the required libraries
+  * pip install -r requirements.txt
+  * Download Resampled Dataset from
+    https://drive.google.com/file/d/1PXOKm_O0p2VCAdU6-XGkrBVNE1X4UNn4/view?usp=drive_link
+  * Just Run the training script notebooks
+
+## How To Run User Interface
+  * Download ONNX exported Models from https://drive.google.com/drive/folders/1BN97aegzlzWjfDhu9R59AoZheOLP0FxK?usp=drive_link 
+  * cd frontend
+  * streamlit run app.py
+
+## User Interface Screenshot
+
+<p float="left">
+  <img src="/frontend/images/1.jpeg" width="300" />
+  <img src="/frontend/images/2.jpeg" width="300" /> 
+</p>
+
+<p float="left">
+  <img src="/frontend/images/real1.jpeg" width="100" />
+  <img src="/frontend/images/real2.jpeg" width="100" /> 
+  <img src="/frontend/images/real3.jpeg" width="100" />
+</p>
+
+<p float="left">
+  <img src="/frontend/images/Fake1.jpeg" width="100" />
+  <img src="/frontend/images/Fake2.png" width="100" /> 
+  <img src="/frontend/images/Fake3.png" width="100" />
+</p>
+
+# Key Accomplishments
 * We have made significant progress in our Audio DeepFake Detection project using Wav2Vec2, Whisper, and WavLM models. Our key achievements include:
 * Implemented a fully functional training script for all three models (Wav2Vec2, Whisper, and WavLM).
 * Performed audio feature engineering for improved model performance.
@@ -30,14 +87,7 @@ These baseline modules play a crucial role in our project by providing pre-train
 <img src="Images/train_accuracy_metrics.png" alt="Training Accuracy Curve" width="40%"> <img src="Images/val_accuracy_metrics.png" alt="Test Accuracy Curve" width="40%">
 </p>
 
-## How To Run
-* Install the required libraries
-pip install -r requirements.txt
 
-* Download Resampled Dataset from
-https://drive.google.com/file/d/1PXOKm_O0p2VCAdU6-XGkrBVNE1X4UNn4/view?usp=drive_link
-
-* Just Run the training script notebooks
 
 
 

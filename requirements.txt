@@ -7,3 +7,7 @@ torchaudio
 matplotlib
 numpy
 wandb
+streamlit
+librosa
+onnx
+onnxruntime
