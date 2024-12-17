@@ -56,6 +56,9 @@
   <img src="/frontend/images/Fake3.jpeg" width="250" />
 </p>
 </centre>
+
+
+
 # Key Accomplishments
 * We have made significant progress in our Audio DeepFake Detection project using Wav2Vec2, Whisper, and WavLM models. Our key achievements include:
 * Implemented a fully functional training script for all three models (Wav2Vec2, Whisper, and WavLM).
