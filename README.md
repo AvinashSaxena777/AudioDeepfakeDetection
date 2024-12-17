@@ -40,20 +40,20 @@
 <centre>
 <p float="left">
 
-  <img src="/frontend/images/1.jpeg" width="500" />
-  <img src="/frontend/images/2.jpeg" width="500" /> 
+  <img src="/frontend/images/1.jpeg" width="400" />
+  <img src="/frontend/images/2.jpeg" width="400" /> 
 </p>
 
 <p float="left">
-  <img src="/frontend/images/real1.jpeg" width="400" />
-  <img src="/frontend/images/real2.jpeg" width="400" /> 
-  <img src="/frontend/images/real3.jpeg" width="400" />
+  <img src="/frontend/images/real1.jpeg" width="300" />
+  <img src="/frontend/images/real2.jpeg" width="300" /> 
+  <img src="/frontend/images/real3.jpeg" width="300" />
 </p>
 
 <p float="left">
-  <img src="/frontend/images/Fake1.jpeg" width="400" />
-  <img src="/frontend/images/Fake2.jpeg" width="400" /> 
-  <img src="/frontend/images/Fake3.jpeg" width="400" />
+  <img src="/frontend/images/Fake1.jpeg" width="300" />
+  <img src="/frontend/images/Fake2.jpeg" width="300" /> 
+  <img src="/frontend/images/Fake3.jpeg" width="300" />
 </p>
 </centre>
 # Key Accomplishments
