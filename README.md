@@ -45,15 +45,15 @@
 </p>
 
 <p float="left">
-  <img src="/frontend/images/real1.jpeg" width="300" />
-  <img src="/frontend/images/real2.jpeg" width="300" /> 
-  <img src="/frontend/images/real3.jpeg" width="300" />
+  <img src="/frontend/images/real1.jpeg" width="250" />
+  <img src="/frontend/images/real2.jpeg" width="250" /> 
+  <img src="/frontend/images/real3.jpeg" width="250" />
 </p>
 
 <p float="left">
-  <img src="/frontend/images/Fake1.jpeg" width="300" />
-  <img src="/frontend/images/Fake2.jpeg" width="300" /> 
-  <img src="/frontend/images/Fake3.jpeg" width="300" />
+  <img src="/frontend/images/Fake1.jpeg" width="250" />
+  <img src="/frontend/images/Fake2.jpeg" width="250" /> 
+  <img src="/frontend/images/Fake3.jpeg" width="250" />
 </p>
 </centre>
 # Key Accomplishments
