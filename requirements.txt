@@ -1,0 +1,9 @@
+torchinfo
+torch
+pandas
+transformers
+scikit-learn
+torchaudio
+matplotlib
+numpy
+wandb
