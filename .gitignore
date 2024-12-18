@@ -2,3 +2,6 @@
 
 /frontend/models/*/*.pth
 /frontend/onnx_models/*.onnx
+/Data/selected_train_audio/*/*.flac
+/Data/selected_test_audio/*/*.flac
+/Data/selected_test_video/*/*.flac
