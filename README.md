@@ -75,9 +75,13 @@
 
 # Baseline Modules Description
 We identified and utilized three pre-trained Audio Speech Recognition models as our baseline modules:
-* Wav2Vec2: This model is designed for speech recognition tasks and has shown excellent performance in various audio-related applications.
-* WavLM: Originally developed for audio deepfake detection, WavLM served as a strong foundation for our project. We extended the work done in a previous research paper to incorporate this model.
-* Whisper: Known for its robust speech recognition capabilities, we adapted Whisper for our audio deepfake detection task.
+## Wav2Vec2
+Wav2Vec2 is a self-supervised model for speech recognition, which learns contextualized speech representations from raw audio. It uses a convolutional encoder to process audio and a transformer network to capture temporal dependencies. Wav2Vec2 achieves state-of-the-art results in low-resource speech recognition by fine-tuning on labeled datasets after pretraining on large unlabeled corpora.  
+## WavLM
+WavLM is a transformer-based model for speech processing that integrates self-supervised learning techniques, including masked language modeling and contrastive learning. It captures both local and global speech contexts and performs well in various tasks like speech recognition, speaker identification, and deepfake detection. Its architecture supports multi-scale feature extraction, making it highly adaptable to deepfake detection.
+## Whisper
+Whisper is a large-scale automatic speech recognition (ASR) model designed for robust transcription across diverse audio conditions. Trained on multilingual and multitask datasets, Whisper performs well under noisy and challenging conditions. Its encoder-decoder transformer architecture allows it to process a variety of audio-related tasks beyond ASR, including adaptation for tasks like deepfake detection.  
+
 These baseline modules play a crucial role in our project by providing pre-trained representations of audio data. We fine-tuned these models to adapt them specifically for audio deepfake detection. The integration process involved modifying the model architectures to output binary classifications (real or fake) instead of their original speech recognition outputs.
 
 # Results
